@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1';
-$db   = 'u404997496_purewood_db';
-$user = 'u404997496_purewood';
-$pass = 'Purewood@2025#';
+$host = 'localhost';
+$db   = 'purewood';
+$user = 'root';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
