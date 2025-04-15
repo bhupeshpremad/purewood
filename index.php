@@ -10,6 +10,8 @@ $stmt->execute();
 $banners = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
+<h1 class="text-center mb-4">123</h1>
+
 <?php if (!empty($banners)): ?>
     <section class="splide" id="bannerSlider" aria-label="Banner Slider">
         <div class="splide__track">
